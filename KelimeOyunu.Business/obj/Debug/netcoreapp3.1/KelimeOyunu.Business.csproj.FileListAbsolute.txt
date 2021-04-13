@@ -1,0 +1,34 @@
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.deps.json
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.runtimeconfig.json
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.runtimeconfig.dev.json
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.dll
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.pdb
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.DataAccess.dll
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Entity.dll
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.DataAccess.pdb
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Entity.pdb
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csprojAssemblyReference.cache
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.AssemblyInfoInputs.cache
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.AssemblyInfo.cs
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csproj.CoreCompileInputs.cache
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csproj.CopyComplete
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.dll
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.pdb
+C:\Users\Metin Cem\source\repos\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.genruntimeconfig.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.deps.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.runtimeconfig.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.runtimeconfig.dev.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Business.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.DataAccess.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Entity.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.DataAccess.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\bin\Debug\netcoreapp3.1\KelimeOyunu.Entity.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csprojAssemblyReference.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.AssemblyInfoInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.AssemblyInfo.cs
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csproj.CoreCompileInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.csproj.CopyComplete
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Business\obj\Debug\netcoreapp3.1\KelimeOyunu.Business.genruntimeconfig.cache

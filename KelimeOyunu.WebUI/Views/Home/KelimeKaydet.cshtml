@@ -1,0 +1,168 @@
+﻿@{
+    Layout = null;
+}
+@model List<KelimeOyunu.Entity.Kelime> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/eStyle.css">
+    <link rel="stylesheet" href="/lib/icofont/icofont.min.css">
+    <style>
+        .content {
+            height: calc(80vh - 300px);
+            margin-top: 30px;
+        }
+
+            .content .score-table {
+                height: 45vh;
+                overflow-y: auto;
+            }
+
+                .content .score-table .table-box {
+                    background-color: rgb(255, 255, 255);
+                    width: 70vw;
+                    margin-left: 15vw;
+                    padding: 25px;
+                    border-radius: 20px;
+                }
+
+                .content .score-table table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+
+                    .content .score-table table tr:first-child td {
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        font-size: 1.2em;
+                        border-bottom: 2px solid gray;
+                    }
+
+                    .content .score-table table tr:nth-child(even) {
+                        background-color: rgba(0, 0, 0, .2);
+                    }
+
+
+                    .content .score-table table tr td {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: .9em;
+                        padding: 5px;
+                    }
+
+                        .content .score-table table tr td:last-child {
+                            color:red;
+                            text-decoration:underline;
+                            cursor:pointer;
+                        }
+
+                        ::-webkit-scrollbar {
+                            width: 5px;
+                        }
+
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            Kelime Oyunu
+        </header>
+        <div class="menu" style="height:20vh;">
+            <div class="gss">
+                <div class="gss-ct">
+                    <input type="text" name="kelime" id="kelime" style="top:-70px;" placeholder="Kelime">
+                    <input type="text" name="soru" id="soru" style="width:600px;" placeholder="Soru">
+                    <button class="sendword" id="kkaydet" style="left:600px">Kaydet </button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="score-table">
+                <div class="table-box">
+                    <table id="sorular">
+                        <tr>
+                            <td>Soru No</td>
+                            <td>Kelime Uzunluğu</td>
+                            <td>Kelime</td>
+                            <td>Soru</td>
+                            <td>Son Kullanım Zamanı</td>
+                            <td>Sil</td>
+                        </tr>
+                        @{
+                            int sira = 1;
+                            foreach (KelimeOyunu.Entity.Kelime item in Model)
+                            {
+                                <tr>
+                                    <td>@item.ID</td>
+                                    <td>@item.KelimeUzunluk</td>
+                                    <td>@item.SoruKelime</td>
+                                    <td>@item.Aciklama</td>
+                                    <td>@item.SonKullanma.ToShortDateString()</td>
+                                    <td>Sil</td>
+                                </tr>
+                                sira++;
+                            }
+                        }
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer><i class="icofont-bubble-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; Metin Cem BAYRAKTAR&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;Yazılım Geliştirme Laboratuvarı II&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont-bubble-left"></i></footer>
+    </div>
+
+    <script  type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("body").on("click", "#kkaydet", function () {
+                var kl = $("#kelime").val();
+                var sr = $("#soru").val();
+                $.ajax({
+                    url: "/Home/KelimeKaydet",
+                    type: "POST",
+                    dataType: "json",
+                    data: { kelime: kl, soru: sr },
+                    success: function (data) {
+                        $("#kelime").val("");
+                        $("#soru").val("");
+                        alert("Soru veritabanı ve aşağıdaki tabloya eklendi. " + data.id);
+                        var zamani = new Date(data.sonKullanma);
+                        $('#sorular').append('<tr><td>' + data.id + '</td><td>' + data.kelimeUzunluk + '</td><td>' + data.soruKelime + '</td><td>' + data.aciklama + '</td><td>' + zamani.getDate() + '. ' + (zamani.getMonth() + 1) +'.' + zamani.getFullYear() +'</td></tr>');
+                    }
+                })
+            });
+
+            $("body").on("click", ".content .score-table table tr td:last-child", function () {
+                var id = $(this).parent().find(">:first-child").html();
+                $(this).parent().remove();
+                $.ajax({
+                    url: "/Home/KelimeSil",
+                    type: "POST",
+                    dataType: "json",
+                    data: { soruId: id },
+                    success: function (data) {
+                        alert("Soru silindi.");
+                    }
+                })
+            });
+        });
+    </script>
+</body>
+</html>

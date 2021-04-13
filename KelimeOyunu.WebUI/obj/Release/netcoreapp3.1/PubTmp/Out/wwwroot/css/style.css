@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    border: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/Images/auroraback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.wrapper {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+header {
+    height: 150px;
+    font-family: 'Akaya Telivigala', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+}
+
+.content {
+    height: calc(100vh - 270px);
+    margin-top: 30px;
+}
+
+    .content .score-table {
+        height: 45vh;
+        overflow-y: auto;
+    }
+
+        .content .score-table .table-box {
+            background-color: rgb(255, 255, 255);
+            width: 70vw;
+            margin-left: 15vw;
+            padding: 25px;
+            border-radius: 20px;
+        }
+
+        .content .score-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .content .score-table table tr:first-child td {
+                font-family: 'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 1.2em;
+                border-bottom: 2px solid gray;
+            }
+
+            .content .score-table table tr:nth-child(even) {
+                background-color: rgba(0, 0, 0, .2);
+            }
+
+
+            .content .score-table table tr td {
+                font-family: 'Montserrat', sans-serif;
+                font-size: .9em;
+                padding: 5px;
+            }
+
+.my-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .my-score div:first-child {
+        margin-left: 0 !important;
+    }
+
+    .my-score div {
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+        margin-left: 70px;
+        border-radius: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+    }
+
+    .my-score .score-box {
+        background-color: #e67e22;
+    }
+
+    .my-score .time-box {
+        background-color: #8e44ad;
+    }
+
+    .my-score .crrct-box {
+        background-color: #27ae60;
+    }
+
+footer {
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: .9em;
+}
+
+@media screen and (max-width:1000px) {
+    .content .score-table table tr:first-child td {
+        font-size:1em;
+    }
+    .content .score-table .table-box {
+        width: 90vw;
+        margin-left: 4vw;
+        padding: 1vw;
+    }
+
+    .content .score-table table tr td {
+        font-size: .7em;
+    }
+    .my-score div {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+        font-size: .9em;
+    }
+}

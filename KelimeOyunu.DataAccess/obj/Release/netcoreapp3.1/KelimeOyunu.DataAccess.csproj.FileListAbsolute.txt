@@ -1,0 +1,15 @@
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.DataAccess.deps.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.DataAccess.runtimeconfig.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.DataAccess.runtimeconfig.dev.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.DataAccess.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.DataAccess.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.csprojAssemblyReference.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.AssemblyInfo.cs
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.csproj.CopyComplete
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.DataAccess\obj\Release\netcoreapp3.1\KelimeOyunu.DataAccess.genruntimeconfig.cache

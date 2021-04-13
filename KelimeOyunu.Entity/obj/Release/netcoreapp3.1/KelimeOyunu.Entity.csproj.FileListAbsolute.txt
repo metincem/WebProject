@@ -1,0 +1,12 @@
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.deps.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.runtimeconfig.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.runtimeconfig.dev.json
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\bin\Release\netcoreapp3.1\KelimeOyunu.Entity.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.csprojAssemblyReference.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.AssemblyInfoInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.AssemblyInfo.cs
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.dll
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.pdb
+C:\Users\Metin\Desktop\YazGelLabII\KelimeOyunu\KelimeOyunu.Entity\obj\Release\netcoreapp3.1\KelimeOyunu.Entity.genruntimeconfig.cache

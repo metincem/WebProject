@@ -1,0 +1,80 @@
+﻿@{ 
+    Layout = null;
+}
+@model int
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/styleSt.css" />
+</head>
+<body>
+    <div class="qs-time" style="display: none;" id="pass"><span id="qstime">20</span><span>PAS!</span></div>
+    <div class="tryagain" style="display: none;">Yanlış Cevap<br>Yeniden Dene</div>
+    <div class="qs-bt" style="display: none;">
+        <div>
+            <div class="ans">Doğru Cevap: <span id="ans-rs">Ulvi</span></div>
+            <div class="up-puan">Toplam Puanınız: <span id="ttl-puan">2300</span></div>
+            <div id="sn-dv"><button id="siradaki">Sıradaki Soru &nbsp; <i class="icofont-ui-next"></i></button></div>
+        </div>
+
+    </div>
+
+    <header>
+        <h1>Kelime Oyunu</h1>
+    </header>
+    <div class="content">
+        <div class="items">
+            <div class="scores">
+                <div class="total-score" id="ttpuan">6800</div>
+                <div class="current-score" id="crrsc">700</div>
+            </div>
+            <div class="time-box" id="timeBox">4:00</div>
+            <div class="boxes">
+                <span class="line"></span>
+                <div id="box-1"></div>
+                <div id="box-2"></div>
+                <div id="box-3"></div>
+                <div id="box-4"></div>
+                <div id="box-5"></div>
+                <div id="box-6"></div>
+                <div id="box-7"></div>
+                <div id="box-8"></div>
+                <div id="box-9"></div>
+                <div id="box-10"></div>
+                <input type="text" value="@Model" id="oturumID" hidden />
+            </div>
+            <div class="questions-container">
+                <div class="qs-ct">
+                    <h2 id="soruNo">Soru 1</h2>
+                    <p id="soruP">Kocaeli üniversitesinin kuluş tarihi nedir?</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <div class="crt">
+                    <button id="answer">Cevapla</button>
+                    <button id="letter">Harf Al</button>
+                </div>
+                <div class="gss" style="display: none;">
+                    <div class="gss-ct">
+                        <input type="text" name="wordGss" id="wordGss">
+                        <button class="sendword" id="tahminle">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Metin Cem Bayraktar <br>
+        Yazılım Geliştirme Laboratuvarı II
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/js/realtimecominication.js"></script>
+</body>
+</html>

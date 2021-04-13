@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+@model List<SkorlarModel>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header style="text-align:center;">
+            Kelime Oyunu<br />En İyiler
+        </header>
+        <div class="content">
+            <div class="score-table" style="max-height:70vh;">
+                <div class="table-box">
+                    <table>
+                        <tr>
+                            <td>Sıra No</td>
+                            <td>Ad Soyad</td>
+                            <td>Puan</td>
+                            <td>Artan Süre</td>
+                            <td>Skor Zamanı</td>
+                        </tr>
+                        @{
+                            int sira = 1;
+                            foreach (SkorlarModel item in Model)
+                            {
+                                string sure = (int)(item.ArtanSure / 60) + "." + (item.ArtanSure % 60);
+                                <tr>
+                                    <td>@sira</td>
+                                    <td>@item.AdSoyad</td>
+                                    <td>@item.Puan</td>
+                                    <td>@sure</td>
+                                    <td>@item.Zaman.ToShortDateString()</td>
+                                </tr>
+                                sira++;
+                            }
+                        }
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer><i class="icofont-bubble-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; Metin Cem BAYRAKTAR&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;Yazılım Geliştirme Laboratuvarı II&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont-bubble-left"></i></footer>
+    </div>
+</body>
+</html>

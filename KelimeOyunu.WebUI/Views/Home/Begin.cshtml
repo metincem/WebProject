@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/eStyle.css">
+    <link rel="stylesheet" href="/lib/icofont/icofont.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            Kelime Oyunu
+        </header>
+        <div class="menu">
+            <div class="gss">
+                <div class="gss-ct">
+                    <form asp-route="/Basla" method="post">
+                        <input type="text" name="wordGss" id="wordGss" placeholder="Ad ve soyadınızı giriniz...">
+                        <button type="submit" class="sendword" id="sendButton">Başlayalım ! </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer><i class="icofont-bubble-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; Metin Cem BAYRAKTAR&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;Yazılım Geliştirme Laboratuvarı II&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont-bubble-left"></i></footer>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        $(".wordGss").keypress(function (event) {
+            if (event.which == 13) 
+                $("#sendButton").trigger("click");
+        });
+    </script>
+</body>
+</html>

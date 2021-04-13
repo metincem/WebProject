@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+@model SonucModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/lib/icofont/icofont.min.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            Kelime Oyunu
+        </header>
+        <div class="content">
+            <div class="score-table">
+                <div class="table-box">
+                    <table>
+                        <tr>
+                            <td>Sıra No</td>
+                            <td>Ad Soyad</td>
+                            <td>Puan</td>
+                            <td>Artan Süre</td>
+                            <td>Skor Zamanı</td>
+                        </tr>
+                        @{
+                            int sira = 1;
+                            foreach (SkorlarModel item in Model.Skorlar)
+                            {
+                                string sure = (int)(item.ArtanSure / 60) + "." + (item.ArtanSure % 60);
+                                <tr>
+                                    <td>@sira</td>
+                                    <td>@item.AdSoyad</td>
+                                    <td>@item.Puan</td>
+                                    <td>@sure</td>
+                                    <td>@item.Zaman.ToShortDateString()</td>
+                                </tr>
+                                sira++;
+                            }
+                        }
+
+
+                    </table>
+                </div>
+            </div>
+            <div class="my-score">
+                <div class="score-box">@Model.OturumModel.Puan<br>Puan</div>
+                <div class="time-box">@Model.OturumModel.ArtanSure<br>Kalan Saniye</div>
+                <div class="crrct-box">@Model.DogruSayisi<br>Doğru Cevap</div>
+                <div onclick="location.href='/'" style="cursor:pointer; font-size:20px;"><i class="icofont-refresh"></i>&nbsp;&nbsp; Yeniden Başla</div>
+            </div>
+        </div>
+        <footer><i class="icofont-bubble-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; Metin Cem BAYRAKTAR&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;Yazılım Geliştirme Laboratuvarı II&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont-bubble-left"></i></footer>
+    </div>
+</body>
+</html>
